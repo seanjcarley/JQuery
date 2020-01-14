@@ -7,6 +7,6 @@ $(document).ready(function(){
         //$(this).hide();
         
         // Challenge 1 - Fade Siblings to 10%
-        $(this).siblings(".theButton").fadeTo(0.1);
+        $(".container").siblings().fadeTo("slow", 0.1);
     });
 });
